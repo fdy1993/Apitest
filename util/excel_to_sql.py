@@ -10,8 +10,14 @@ def convert_slq():
     app.screen_updating = False
     filepath = r'D:\workspce\document\ErgoSportive\接口文档\接口测试用例.xlsx'
     wb = app.books.open(filepath)
-    sht = xw.sheets.active
+    sheet = wb.sheets.avtive
+    A1_C4 = sheet.range('A1:C4').value
+    print(A1_C4)
 
     wb.save()
     wb.close()
     app.quit()
+
+
+if __name__ == '__main__':
+    convert_slq()
