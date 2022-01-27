@@ -1,5 +1,5 @@
 import pandas as pd
-from db_handler import DbHandler
+from util.db_handler import DbHandler
 
 db = DbHandler()
 filepath = r'D:\workspce\document\ErgoSportive\接口文档\接口测试用例.xlsx'
