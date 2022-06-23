@@ -91,3 +91,6 @@
 [2022-01-27 14:19:40,746][MainThread:11348][task_id:root][logs_util.py:82][ERROR][(1136, "Column count doesn't match value count at row 1")]
 [2022-01-27 14:24:03,737][MainThread:12484][task_id:root][logs_util.py:82][ERROR][(1062, "Duplicate entry '1' for key 'case.PRIMARY'")]
 [2022-01-27 14:24:03,739][MainThread:12484][task_id:root][logs_util.py:82][ERROR][(1062, "Duplicate entry '2' for key 'case.PRIMARY'")]
+[2022-04-01 08:56:34,574][MainThread:8820][task_id:root][logs_util.py:78][INFO][Mail 发送成功]
+[2022-06-20 17:33:24,556][MainThread:19312][task_id:root][logs_util.py:82][ERROR][(1136, "Column count doesn't match value count at row 1")]
+[2022-06-20 17:33:28,212][MainThread:19312][task_id:root][logs_util.py:82][ERROR][(1136, "Column count doesn't match value count at row 1")]
